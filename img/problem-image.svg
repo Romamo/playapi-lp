@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Problem Image</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DC3545" offset="0%"></stop>
+            <stop stop-color="#FF6B6B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Problem-Image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#F8F9FA" x="0" y="0" width="800" height="600" rx="20"></rect>
+        <g id="Problem-Illustration" transform="translate(100.000000, 50.000000)">
+            <rect id="API-Box" stroke="#6C757D" stroke-width="3" fill="#FFFFFF" x="50" y="100" width="200" height="250" rx="10"></rect>
+            <text id="Legacy-API" font-family="Arial-BoldMT, Arial" font-size="20" font-weight="bold" fill="#212529">
+                <tspan x="100" y="130">Legacy API</tspan>
+            </text>
+            <rect id="AI-Box" stroke="#6C757D" stroke-width="3" fill="#FFFFFF" x="350" y="100" width="200" height="250" rx="10"></rect>
+            <text id="AI-Interface" font-family="Arial-BoldMT, Arial" font-size="20" font-weight="bold" fill="#212529">
+                <tspan x="380" y="130">AI Interface</tspan>
+            </text>
+            <path d="M250,200 L350,200" id="Connection-Line-1" stroke="#DC3545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M250,225 L350,225" id="Connection-Line-2" stroke="#DC3545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M250,250 L350,250" id="Connection-Line-3" stroke="#DC3545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Problem-Circle" fill="url(#linearGradient-1)" cx="300" cy="225" r="30"></circle>
+            <text id="!" font-family="Arial-BoldMT, Arial" font-size="30" font-weight="bold" fill="#FFFFFF">
+                <tspan x="295" y="235">!</tspan>
+            </text>
+            <rect id="Code-Block-1" fill="#F8F9FA" x="70" y="160" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-2" fill="#F8F9FA" x="70" y="185" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-3" fill="#F8F9FA" x="70" y="210" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-4" fill="#F8F9FA" x="70" y="235" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-5" fill="#F8F9FA" x="70" y="260" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-6" fill="#F8F9FA" x="70" y="285" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-7" fill="#F8F9FA" x="70" y="310" width="160" height="15" rx="2"></rect>
+            <rect id="Question-Mark-1" fill="#F8F9FA" x="370" y="160" width="160" height="15" rx="2"></rect>
+            <rect id="Question-Mark-2" fill="#F8F9FA" x="370" y="185" width="160" height="15" rx="2"></rect>
+            <text id="?" font-family="Arial-BoldMT, Arial" font-size="40" font-weight="bold" fill="#DC3545">
+                <tspan x="440" y="250">?</tspan>
+            </text>
+            <rect id="Question-Mark-3" fill="#F8F9FA" x="370" y="285" width="160" height="15" rx="2"></rect>
+            <rect id="Question-Mark-4" fill="#F8F9FA" x="370" y="310" width="160" height="15" rx="2"></rect>
+        </g>
+        <g id="Error-Messages" transform="translate(200.000000, 400.000000)">
+            <rect id="Error-1" fill="#FFE5E5" x="0" y="0" width="120" height="30" rx="5"></rect>
+            <text id="Error-Text-1" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#DC3545">
+                <tspan x="10" y="20">Format Error</tspan>
+            </text>
+            <rect id="Error-2" fill="#FFE5E5" x="150" y="0" width="120" height="30" rx="5"></rect>
+            <text id="Error-Text-2" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#DC3545">
+                <tspan x="160" y="20">Missing Context</tspan>
+            </text>
+            <rect id="Error-3" fill="#FFE5E5" x="300" y="0" width="120" height="30" rx="5"></rect>
+            <text id="Error-Text-3" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#DC3545">
+                <tspan x="310" y="20">Naming Confusion</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

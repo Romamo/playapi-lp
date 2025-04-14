@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Solution Image</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4361EE" offset="0%"></stop>
+            <stop stop-color="#4CC9F0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Solution-Image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#F8F9FA" x="0" y="0" width="800" height="600" rx="20"></rect>
+        <g id="Solution-Illustration" transform="translate(100.000000, 50.000000)">
+            <rect id="API-Box" stroke="#6C757D" stroke-width="3" fill="#FFFFFF" x="50" y="100" width="200" height="250" rx="10"></rect>
+            <text id="Legacy-API" font-family="Arial-BoldMT, Arial" font-size="20" font-weight="bold" fill="#212529">
+                <tspan x="100" y="130">Legacy API</tspan>
+            </text>
+            <rect id="AI-Box" stroke="#4361EE" stroke-width="3" fill="#FFFFFF" x="350" y="100" width="200" height="250" rx="10"></rect>
+            <text id="AI-Interface" font-family="Arial-BoldMT, Arial" font-size="20" font-weight="bold" fill="#212529">
+                <tspan x="380" y="130">AI Interface</tspan>
+            </text>
+            <path d="M250,200 L350,200" id="Connection-Line-1" stroke="#28A745" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M250,225 L350,225" id="Connection-Line-2" stroke="#28A745" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M250,250 L350,250" id="Connection-Line-3" stroke="#28A745" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Solution-Circle" fill="url(#linearGradient-1)" cx="300" cy="225" r="30"></circle>
+            <text id="AI" font-family="Arial-BoldMT, Arial" font-size="20" font-weight="bold" fill="#FFFFFF">
+                <tspan x="290" y="232">AI</tspan>
+            </text>
+            <rect id="Code-Block-1" fill="#F8F9FA" x="70" y="160" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-2" fill="#F8F9FA" x="70" y="185" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-3" fill="#F8F9FA" x="70" y="210" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-4" fill="#F8F9FA" x="70" y="235" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-5" fill="#F8F9FA" x="70" y="260" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-6" fill="#F8F9FA" x="70" y="285" width="160" height="15" rx="2"></rect>
+            <rect id="Code-Block-7" fill="#F8F9FA" x="70" y="310" width="160" height="15" rx="2"></rect>
+            <rect id="AI-Block-1" fill="#E6F7FF" x="370" y="160" width="160" height="15" rx="2"></rect>
+            <rect id="AI-Block-2" fill="#E6F7FF" x="370" y="185" width="160" height="15" rx="2"></rect>
+            <rect id="AI-Block-3" fill="#E6F7FF" x="370" y="210" width="160" height="15" rx="2"></rect>
+            <rect id="AI-Block-4" fill="#E6F7FF" x="370" y="235" width="160" height="15" rx="2"></rect>
+            <rect id="AI-Block-5" fill="#E6F7FF" x="370" y="260" width="160" height="15" rx="2"></rect>
+            <rect id="AI-Block-6" fill="#E6F7FF" x="370" y="285" width="160" height="15" rx="2"></rect>
+            <rect id="AI-Block-7" fill="#E6F7FF" x="370" y="310" width="160" height="15" rx="2"></rect>
+        </g>
+        <g id="Features" transform="translate(150.000000, 400.000000)">
+            <rect id="Feature-1" fill="#E6F7FF" x="0" y="0" width="150" height="30" rx="15"></rect>
+            <text id="Feature-Text-1" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#4361EE">
+                <tspan x="20" y="20">AI-driven features</tspan>
+            </text>
+            <rect id="Feature-2" fill="#E6F7FF" x="170" y="0" width="150" height="30" rx="15"></rect>
+            <text id="Feature-Text-2" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#4361EE">
+                <tspan x="190" y="20">Code generation</tspan>
+            </text>
+            <rect id="Feature-3" fill="#E6F7FF" x="340" y="0" width="150" height="30" rx="15"></rect>
+            <text id="Feature-Text-3" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#4361EE">
+                <tspan x="360" y="20">No technical skills</tspan>
+            </text>
+            <rect id="Feature-4" fill="#E6F7FF" x="85" y="50" width="150" height="30" rx="15"></rect>
+            <text id="Feature-Text-4" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#4361EE">
+                <tspan x="95" y="70">Universal compatibility</tspan>
+            </text>
+            <rect id="Feature-5" fill="#E6F7FF" x="255" y="50" width="150" height="30" rx="15"></rect>
+            <text id="Feature-Text-5" font-family="Arial, Arial" font-size="12" font-weight="normal" fill="#4361EE">
+                <tspan x="275" y="70">Seamless integration</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
